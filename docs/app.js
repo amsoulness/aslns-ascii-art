@@ -179,7 +179,7 @@ $('search').addEventListener('input', () => {
 
 async function initialize() {
   try {
-    const response = await fetch('artworks.json');
+    const response = await fetch('artworks.json?v=20261126-romantic-heart', { cache: 'no-store' });
     if (!response.ok) throw new Error('Collection unavailable');
     artworks = await response.json();
     const fragment = document.createDocumentFragment();
