@@ -1,0 +1,64 @@
+# CAT KNIGHT
+
+Cat Knight · ASCII Code Art by ASLNS, 2026
+
+![CAT KNIGHT](images/preview.gif)
+
+## Artist's Note
+
+A tiny kitten in full armour, holding a sword bigger than itself.
+The camera starts on its face and slowly pulls back to the whole knight, while the wind moves the cape, the fur and the grass.
+Every letter takes its colour and weight from a photo.
+
+| face | pulling back | the knight |
+|---|---|---|
+| ![](images/01_face.png) | ![](images/02_pulling_back.png) | ![](images/03_knight.png) |
+
+## About the Photo
+
+The kitten knight photo is not mine, so this piece is not for sale and the photo is not included.
+The finished letters of all 600 frames are in cat_knight_frames.npz, and the full code to play them is shared here.
+All credit for the photo goes to its creator.
+
+## Technology
+
+Python · NumPy · pygame-ce (the frames were made with OpenCV)
+
+## Creative Process
+
+1. Cut out: the knight is cut out of the photo and split into three layers (knight, cape, grass).
+2. Cloth: a 9 x 9 grid of points with springs is laid over the cape, pinned at the shoulder, and pushed by gusts of wind.
+3. Wind: the fur on the edge of the head and the grass shift with the same wind.
+4. Camera: the view starts on the face and pulls back to the whole knight.
+5. ASCII Rendering: each frame becomes a grid of letters; brightness picks the letter, edges become | / \ - _ and the colour comes from the photo.
+
+## Technical Concepts
+
+Image cutout with an alpha mask · mass spring cloth with Verlet steps · image warping with remap
+Camera zoom on a letter grid · edge detection with Sobel · colour palette by k-means
+
+## Source Code
+
+The full Python source is included in this folder.
+
+```
+pip install -r requirements.txt
+python cat_knight.py
+```
+
+Space pause, R restart, S screenshot, Esc quit.
+Rules for using this code:
+I share this code for you. Study it, change it, and use what you learn to make your own ASCII art.
+- Don't repost this code, or a big part of it, as your own.
+- Don't post my artwork (videos or images) as your own.
+- Don't sell it, or use it commercially without my permission.
+- Don't use it to train AI models.
+
+A credit to @ft.aslns is always appreciated. If you see my code or artwork posted as someone else's, please report it and let me know on Instagram [@ft.aslns](https://instagram.com/ft.aslns).
+
+Full terms: [LICENSE.txt](LICENSE.txt)
+
+---
+
+Artist: ASLNS · Instagram [@ft.aslns](https://instagram.com/ft.aslns)
+Code © 2026 ASLNS. The kitten knight photo belongs to its creator.

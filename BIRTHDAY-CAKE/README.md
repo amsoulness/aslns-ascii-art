@@ -1,0 +1,57 @@
+# HAPPY BIRTHDAY
+
+Birthday Cake · ASCII Code Art by ASLNS, 2026
+
+![HAPPY BIRTHDAY](images/preview.gif)
+
+## Artist's Note
+
+A slice of birthday cake builds itself from the plate up, a single candle is lit, and its warm light flickers across the frosting.
+Confetti falls, and the wish appears above, drawn only with letters, numbers and symbols.
+
+| building | candle | happy birthday |
+|---|---|---|
+| ![](images/01_building.png) | ![](images/02_candle.png) | ![](images/03_happy_birthday.png) |
+
+## Technology
+
+Python · NumPy · pygame-ce · Pillow
+
+## Creative Process
+
+1. Form: the slice, its sponge and cream layers, frosting, candle, sprinkles and plate are built in 3D.
+2. Build: the cake appears from the plate upward, with a few letters flying in.
+3. Candlelight: the flame is lit, and a warm light reaches only the part of the cake close to it.
+4. Celebration: confetti falls and the two words pop in above the cake.
+5. ASCII Rendering: the scene becomes a grid of characters, each material with its own letters.
+
+## Technical Concepts
+
+3D geometry and rotation · perspective projection with depth ordering · surface normals
+Diffuse and specular lighting · local point light with falloff · outline detection · text rasterised into a character grid
+
+## Source Code
+
+The full Python source is free and included in this folder.
+
+```
+pip install -r requirements.txt
+python birthday_cake.py
+```
+
+Space pause, R restart, S screenshot, Esc quit.
+Rules for using this code:
+I share this code for you. Study it, change it, and use what you learn to make your own ASCII art.
+- Don't repost this code, or a big part of it, as your own.
+- Don't post my artwork (videos or images) as your own.
+- Don't sell it, or use it commercially without my permission.
+- Don't use it to train AI models.
+
+A credit to @ft.aslns is always appreciated. If you see my code or artwork posted as someone else's, please report it and let me know on Instagram [@ft.aslns](https://instagram.com/ft.aslns).
+
+Full terms: [LICENSE.txt](LICENSE.txt)
+
+---
+
+Artist: ASLNS · Instagram [@ft.aslns](https://instagram.com/ft.aslns)
+© 2026 ASLNS. All rights reserved. Images and video in this repository may not be reused without permission.

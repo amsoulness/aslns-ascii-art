@@ -1,0 +1,23 @@
+ASLNS · ASCII Code Art
+Copyright (c) 2026 ASLNS (@ft.aslns). All rights reserved.
+
+This applies to everything in this repository: code, text, images and videos.
+Each work folder has the same terms in its own LICENSE.txt.
+
+You may:
+  - run, read and study this code,
+  - change it for your own personal projects,
+  - learn from it and make your own ASCII art.
+
+You may not:
+  - repost or redistribute this code, or a big part of it, as your own,
+  - post the artwork (videos or images) as your own,
+  - sell it, or use it or its output commercially without written
+    permission from ASLNS,
+  - use it to train AI models.
+
+Credit to @ft.aslns is appreciated when you share what you make.
+If you see my code or artwork posted as someone else's, please report it
+and let me know on Instagram @ft.aslns.
+
+This software is provided "as is", without warranty of any kind.
