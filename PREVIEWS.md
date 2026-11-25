@@ -1,6 +1,6 @@
 # Preview generation and verification
 
-All 16 artworks were run with their supplied main window renderer on
+All 20 artworks were run with their supplied main window renderer on
 26 November 2026, using Python 3.12 on Windows and an offscreen SDL display.
 The capture report in [PREVIEW_CAPTURE.json](PREVIEW_CAPTURE.json) records
 the three screenshot timestamps, loop length, render samples and GIF frame count.
@@ -24,8 +24,8 @@ For Butterfly and Goldfish, the same frame functions run synchronously instead
 of using their interactive worker pool. The artwork source files are unchanged.
 This verifies the rendered animation, not the machine's real-time frame rate.
 
-Three screenshots per work preserve the full 1080 × 960 canvas, attribution,
-status text and glow. The GIF samples every other rendered frame at 432 × 384,
+Three screenshots per work preserve the full 1080 Ã— 960 canvas, attribution,
+status text and glow. The GIF samples every other rendered frame at 432 Ã— 384,
 5 fps, with a 96-color palette and an infinite loop. Screenshots keep their
 existing names so artwork READMEs and the main collection table continue to work.
 System font availability can affect exact glyph appearance on other computers.
@@ -60,7 +60,7 @@ python -m pip install -r requirements-preview.txt
 python tools/export_mobile.py
 ```
 
-This creates 16 MP4 videos (H.264 Baseline, YUV420p, fast-start metadata),
+This creates 20 MP4 videos (H.264 Baseline, YUV420p, fast-start metadata),
 small WebP posters, and the gallery manifest in docs/. Videos are derived from
 the captured GIFs; repeated frames at 10 fps preserve their 5 fps source motion.
 They contain no audio and are downloaded only when a visitor chooses to play.

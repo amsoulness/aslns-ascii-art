@@ -2,7 +2,7 @@
 
 Public URL: https://amsoulness.github.io/aslns-ascii-art/
 
-A buildless HTML/CSS/JavaScript gallery for all 16 artworks. No account,
+A buildless HTML/CSS/JavaScript gallery for all 20 artworks. No account,
 server process, or Python installation is needed to watch.
 
 ## Deploy on GitHub Pages
@@ -38,3 +38,10 @@ requires a browser with H.264 support; Open GIF is available as a fallback.
 
 Original attribution and restrictions apply to the exported videos and posters.
 See [LICENSE.txt](../LICENSE.txt) and the artwork-specific licenses.
+
+## Editable name heart
+
+Select A Heart for You, type a name, then choose Share artwork.
+The name is rendered as browser text over a generic heart video; it is never
+committed to the repository. Direct links support `?art=NAME-HEART&name=Alex`.
+The original desktop Python application has its own editable text field.

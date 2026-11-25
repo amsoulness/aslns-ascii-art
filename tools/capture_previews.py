@@ -19,6 +19,8 @@ from PIL import Image
 
 ROOT = Path(__file__).resolve().parent.parent
 TIMES = {
+    'BUTTERFLY-HEART': (1, 5, 10), 'BLOOMING-BOUQUET': (1.5, 4, 10),
+    'MOONLIGHT-CATS': (1, 6, 12), 'NAME-HEART': (1, 6, 12),
     'BIRTHDAY-CAKE': (2, 6, 12), 'BLACK-HOLE': (1.5, 5, 14),
     'BUTTERFLY': (1.4, 3, 12), 'CAT-KNIGHT': (1, 8, 16),
     'DAISY': (3, 10, 16), 'DIAMOND-RING': (1.5, 6, 13),
@@ -50,6 +52,8 @@ def capture(name):
     tree = ast.fix_missing_locations(Timing().visit(ast.parse(source.read_text(encoding='utf-8-sig'))))
     namespace = {'__file__': str(source), '__name__': 'preview_' + name.replace('-', '_')}
     exec(compile(tree, str(source), 'exec'), namespace)
+    if 'CAPTURE' in namespace:
+        namespace['CAPTURE'] = True
     loop = float(namespace['LOOP'])
     screenshots = sorted((folder / 'images').glob('0*.png'))
     assert len(screenshots) == 3, (name, screenshots)

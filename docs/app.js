@@ -2,6 +2,7 @@
 const $ = (id) => document.getElementById(id);
 const video = $('video');
 let artworks = [], selected;
+let chosenName = (new URL(location.href).searchParams.get('name') || '').slice(0, 24);
 const repository = 'https://github.com/amsoulness/aslns-ascii-art';
 
 function status(message) { $('status').textContent = message; }
@@ -24,6 +25,14 @@ function selectArtwork(artwork, play = false) {
   document.querySelectorAll('.card').forEach(card => card.setAttribute('aria-pressed', String(card.dataset.id === artwork.id)));
   const url = new URL(location.href);
   url.searchParams.set('art', artwork.id);
+  const editable = artwork.id === 'NAME-HEART';
+  $('name-editor').hidden = !editable;
+  $('personal-name').hidden = !editable;
+  video.parentElement.classList.toggle('has-name', editable);
+  $('name-input').value = chosenName;
+  $('personal-name').textContent = chosenName || 'Your name';
+  if (editable && chosenName) url.searchParams.set('name', chosenName);
+  else url.searchParams.delete('name');
   history.replaceState(null, '', url);
   status('Ready when you are. Tap play to start.');
   $('stage-play').hidden = false;
@@ -45,14 +54,35 @@ async function start() {
 }
 $('play').addEventListener('click', () => { if (video.paused) start(); else video.pause(); });
 $('stage-play').addEventListener('click', start);
+$('name-input').addEventListener('input', () => {
+  chosenName = $('name-input').value.slice(0, 24);
+  $('personal-name').textContent = chosenName || 'Your name';
+  const url = new URL(location.href);
+  if (chosenName) url.searchParams.set('name', chosenName);
+  else url.searchParams.delete('name');
+  history.replaceState(null, '', url);
+});
 $('restart').addEventListener('click', () => { video.currentTime = 0; start(); });
 $('fullscreen').addEventListener('click', async () => {
   try {
+    if (selected?.id === 'NAME-HEART') {
+      if (video.parentElement.requestFullscreen) await video.parentElement.requestFullscreen();
+      else status('Rotate your phone for a larger heart; your name stays visible here.');
+      return;
+    }
     if (video.requestFullscreen) await video.requestFullscreen();
     else if (video.webkitEnterFullscreen) { await start(); video.webkitEnterFullscreen(); }
     else status('Use the fullscreen control on the video, or rotate your phone.');
   } catch { status('Use the fullscreen control on the video.'); }
 });
+function positionPersonalName() {
+  const box = video.getBoundingClientRect();
+  const stage = video.parentElement.getBoundingClientRect();
+  const height = Math.min(box.height, box.width / 1.125);
+  $('personal-name').style.top = `${box.top - stage.top + box.height / 2 - height * 0.07}px`;
+}
+new ResizeObserver(positionPersonalName).observe(video.parentElement);
+document.addEventListener('fullscreenchange', positionPersonalName);
 $('share').addEventListener('click', async () => {
   try {
     if (navigator.share) await navigator.share({ title: selected.title + ' · ASLNS', url: location.href });

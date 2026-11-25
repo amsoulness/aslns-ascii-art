@@ -1,0 +1,12 @@
+HOW IT WORKS - Butterfly Heart
+ASLNS / @ft.aslns
+
+Two butterflies fly along a sparkling heart-shaped trail.
+scene(t) builds a small colored raster from parametric geometry.
+Canvas.draw(t) samples the scene into a grid of 135 columns and 80 rows.
+The brightest color channel picks a glyph from a brightness ramp.
+Each glyph is tinted with the scene color; a blurred glow is added.
+main() displays the artwork, handles controls and loops every 18 seconds.
+
+Regenerate captures with tools/capture_previews.py BUTTERFLY-HEART.
+Export phone-compatible video with tools/export_mobile.py.

@@ -1,0 +1,47 @@
+# A HEART FOR YOU
+
+A Heart for You · ASCII Code Art · ASLNS, 2026
+
+**[Play on your phone](https://amsoulness.github.io/aslns-ascii-art/?art=NAME-HEART)**
+
+![A Heart for You](images/preview.gif)
+
+A glowing heart beats around a name you can change yourself.
+
+| beginning | forming | finished |
+|---|---|---|
+| ![](images/01_beginning.png) | ![](images/02_forming.png) | ![](images/03_finished.png) |
+
+## Run on a computer
+
+```sh
+python -m pip install -r requirements.txt
+python name_heart.py
+```
+
+Click the artwork window. Space pauses, R restarts, S saves a screenshot beside
+the script, and Esc closes. The window scales to your display.
+
+Click the name box, type up to 24 characters, then press Enter. While editing, R, S, and Space type normally; Esc leaves the field. On mobile, type a name below the player. Share artwork preserves it in the link. Names are not saved into the repository.
+
+## How it works
+
+The scene is drawn from curves, ellipses, polygons, and twinkling points.
+It is sampled into a 135 × 80 grid. Brightness selects an ASCII glyph,
+the original color tints it, and a soft glow surrounds the characters.
+The 18-second animation loops automatically.
+
+Python · NumPy · pygame-ce. No external image assets are required.
+
+## Previews and mobile playback
+
+Three full-canvas screenshots and a looping GIF were captured from the actual
+Python window renderer on 26 November 2026. The mobile gallery plays an H.264
+export of this render. Name Heart adds an editable browser text layer so each
+visitor can use a different name; its generic capture leaves the center empty.
+See [PREVIEWS.md](../PREVIEWS.md) for regeneration commands.
+
+## License
+
+ASLNS · [@ft.aslns](https://instagram.com/ft.aslns) · 2026.
+See [LICENSE.txt](LICENSE.txt) for the personal-use permissions and restrictions.

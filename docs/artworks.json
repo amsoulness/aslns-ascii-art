@@ -1,5 +1,41 @@
 [
   {
+    "id": "BUTTERFLY-HEART",
+    "title": "Butterfly heart",
+    "description": "Two butterflies trace a sparkling heart together.",
+    "video": "media/butterfly-heart.mp4",
+    "poster": "media/butterfly-heart.webp",
+    "seconds": 18.0,
+    "bytes": 382439
+  },
+  {
+    "id": "BLOOMING-BOUQUET",
+    "title": "Blooming bouquet",
+    "description": "Five little flowers, tied with a pink ribbon.",
+    "video": "media/blooming-bouquet.mp4",
+    "poster": "media/blooming-bouquet.webp",
+    "seconds": 18.0,
+    "bytes": 393511
+  },
+  {
+    "id": "MOONLIGHT-CATS",
+    "title": "Moonlight cats",
+    "description": "Two cats sit together under a heart-shaped moon.",
+    "video": "media/moonlight-cats.mp4",
+    "poster": "media/moonlight-cats.webp",
+    "seconds": 18.0,
+    "bytes": 101684
+  },
+  {
+    "id": "NAME-HEART",
+    "title": "A heart for you",
+    "description": "Type any name into a glowing, beating heart.",
+    "video": "media/name-heart.mp4",
+    "poster": "media/name-heart.webp",
+    "seconds": 18.0,
+    "bytes": 519593
+  },
+  {
     "id": "DAISY",
     "title": "Daisy",
     "description": "White petals open around a golden heart.",

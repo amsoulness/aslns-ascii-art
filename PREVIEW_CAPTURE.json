@@ -254,5 +254,69 @@
     ],
     "gif_fps": 5,
     "render_samples": 220
+  },
+  {
+    "work": "BUTTERFLY-HEART",
+    "loop_seconds": 18.0,
+    "screenshots": {
+      "01_beginning.png": 1.0,
+      "02_forming.png": 5.0,
+      "03_finished.png": 10.0
+    },
+    "gif_frames": 89,
+    "gif_size": [
+      432,
+      384
+    ],
+    "gif_fps": 5,
+    "render_samples": 179
+  },
+  {
+    "work": "BLOOMING-BOUQUET",
+    "loop_seconds": 18.0,
+    "screenshots": {
+      "01_beginning.png": 1.5,
+      "02_forming.png": 4.0,
+      "03_finished.png": 10.0
+    },
+    "gif_frames": 89,
+    "gif_size": [
+      432,
+      384
+    ],
+    "gif_fps": 5,
+    "render_samples": 179
+  },
+  {
+    "work": "MOONLIGHT-CATS",
+    "loop_seconds": 18.0,
+    "screenshots": {
+      "01_beginning.png": 1.0,
+      "02_forming.png": 6.0,
+      "03_finished.png": 12.0
+    },
+    "gif_frames": 89,
+    "gif_size": [
+      432,
+      384
+    ],
+    "gif_fps": 5,
+    "render_samples": 179
+  },
+  {
+    "work": "NAME-HEART",
+    "loop_seconds": 18.0,
+    "screenshots": {
+      "01_beginning.png": 1.0,
+      "02_forming.png": 6.0,
+      "03_finished.png": 12.0
+    },
+    "gif_frames": 89,
+    "gif_size": [
+      432,
+      384
+    ],
+    "gif_fps": 5,
+    "render_samples": 179
   }
 ]

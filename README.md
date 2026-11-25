@@ -1,4 +1,4 @@
-# ASLNS · ASCII Code Art
+# ASLNS Â· ASCII Code Art
 
 ASLNS is a creative coding artist who writes artworks in Python.
 Every piece is drawn only with letters, numbers and symbols.
@@ -18,16 +18,26 @@ what each piece is, why it was made, and which techniques shaped it.
 
 **[Open the mobile gallery](https://amsoulness.github.io/aslns-ascii-art/)**
 
-Choose any of the 16 artworks and tap **Play animation**. Works in a modern
+Choose any of the 20 artworks and tap **Play animation**. Works in a modern
 phone, tablet, or desktop browser without installing Python. Includes pause,
 restart, fullscreen, search, and shareable links to individual artworks.
 Videos show the rendered output of the Python animations; use the source code
 to run the original interactive programs on a computer.
 
+## Romantic collection
+
+Four new animations: Butterfly Heart, Blooming Bouquet, Moonlight Cats, and
+[A Heart for You](https://amsoulness.github.io/aslns-ascii-art/?art=NAME-HEART).
+The name heart has a text box on both desktop and mobile, so anyone can personalize it.
+
 ## Works
 
 | | Work | Year | Source code | Watch on mobile |
 |---|---|---|---|---|
+| ![](BUTTERFLY-HEART/images/03_finished.png) | [Butterfly Heart](BUTTERFLY-HEART/) | 2026 | free, in this repository | [Play animation](https://amsoulness.github.io/aslns-ascii-art/?art=BUTTERFLY-HEART) |
+| ![](BLOOMING-BOUQUET/images/03_finished.png) | [Blooming Bouquet](BLOOMING-BOUQUET/) | 2026 | free, in this repository | [Play animation](https://amsoulness.github.io/aslns-ascii-art/?art=BLOOMING-BOUQUET) |
+| ![](MOONLIGHT-CATS/images/03_finished.png) | [Moonlight Cats](MOONLIGHT-CATS/) | 2026 | free, in this repository | [Play animation](https://amsoulness.github.io/aslns-ascii-art/?art=MOONLIGHT-CATS) |
+| ![](NAME-HEART/images/03_finished.png) | [A Heart for You](NAME-HEART/) | 2026 | free, in this repository | [Play animation](https://amsoulness.github.io/aslns-ascii-art/?art=NAME-HEART) |
 | ![](BUTTERFLY/images/03_flight.png) | [BUTTERFLY](BUTTERFLY/) | 2026 | free, in this repository | [Play animation](https://amsoulness.github.io/aslns-ascii-art/?art=BUTTERFLY) |
 | ![](GOLDFISH/images/02_hello.png) | [GOLDFISH](GOLDFISH/) | 2026 | free, in this repository | [Play animation](https://amsoulness.github.io/aslns-ascii-art/?art=GOLDFISH) |
 | ![](GNOME/images/02_hello.png) | [GNOME](GNOME/) | 2026 | free, in this repository | [Play animation](https://amsoulness.github.io/aslns-ascii-art/?art=GNOME) |
@@ -49,7 +59,7 @@ New works are added over time.
 
 ## Technology
 
-Python · NumPy · pygame-ce · Pillow · OpenCV. No 3D software.
+Python Â· NumPy Â· pygame-ce Â· Pillow Â· OpenCV. No 3D software.
 
 ## Links
 
@@ -65,7 +75,7 @@ don't sell it or use it commercially without my permission, and don't use it to 
 A credit to @ft.aslns is always appreciated. If you see my code or artwork posted as someone else's, please report it and let me know on Instagram [@ft.aslns](https://instagram.com/ft.aslns).
 Full terms in [LICENSE.txt](LICENSE.txt).
 
-© 2026 ASLNS. All rights reserved.
+Â© 2026 ASLNS. All rights reserved.
 Images and videos in this repository may not be reused without permission.
 
 ## Run the collection
@@ -82,5 +92,5 @@ Replace `DAISY/daisy.py` with the desired artwork's script. Each artwork also
 has its own minimal `requirements.txt`. Click its window, then use Space to
 pause/resume, R to restart, S to save a screenshot, or Esc to close.
 
-All 16 works have three freshly rendered full-canvas screenshots and a looping
+All 20 works have three freshly rendered full-canvas screenshots and a looping
 preview. See [preview generation and verification](PREVIEWS.md).
