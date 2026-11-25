@@ -1,0 +1,13 @@
+HOW IT WORKS - Daisy
+ASLNS · @ft.aslns
+
+1. A curved 3D stem, two leaves and five sepals form the plant.
+2. Twenty-four radial petals have narrow rounded profiles and fold toward the viewer before opening.
+3. A golden-angle spiral distributes 2,400 seed points across the domed yellow center.
+4. A reveal wave grows the plant from the ground up. The petals then spread in staggered groups.
+5. Lighting, gentle sway, dewdrops, falling droplets, sparks and dust animate the scene.
+6. Depth sorting maps 3D samples onto an ASCII grid. Outlines, colored glyphs, trails and soft glow complete the frame.
+
+Run daisy.py after installing requirements.txt.
+Space pause, R restart, S screenshot, Esc quit.
+Adjust DAISY_PETALS, bloom(), DRAW or COLORS to customize the flower.
