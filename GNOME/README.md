@@ -1,5 +1,7 @@
 # GNOME
 
+**[Play on your phone — no installation](https://amsoulness.github.io/aslns-ascii-art/?art=GNOME)**
+
 Christmas Gnome · ASCII Code Art · ASLNS, 2026
 
 ![GNOME](images/preview.gif)

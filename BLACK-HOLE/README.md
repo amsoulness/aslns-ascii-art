@@ -1,5 +1,7 @@
 # BLACK HOLE
 
+**[Play on your phone — no installation](https://amsoulness.github.io/aslns-ascii-art/?art=BLACK-HOLE)**
+
 Black Hole · ASCII Code Art by ASLNS, 2026
 
 ![BLACK HOLE](images/preview.gif)

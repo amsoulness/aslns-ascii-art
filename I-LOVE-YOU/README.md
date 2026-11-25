@@ -1,5 +1,7 @@
 # I LOVE YOU
 
+**[Play on your phone — no installation](https://amsoulness.github.io/aslns-ascii-art/?art=I-LOVE-YOU)**
+
 Heart · ASCII Code Art · ASLNS, 2026
 
 ![I LOVE YOU](images/preview.gif)

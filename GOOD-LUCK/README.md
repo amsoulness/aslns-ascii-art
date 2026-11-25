@@ -1,5 +1,7 @@
 # GOOD LUCK
 
+**[Play on your phone — no installation](https://amsoulness.github.io/aslns-ascii-art/?art=GOOD-LUCK)**
+
 Four-Leaf Clover · ASCII Code Art · ASLNS, 2026
 
 ![GOOD LUCK](images/preview.gif)

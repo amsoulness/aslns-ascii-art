@@ -1,5 +1,7 @@
 # MONEY RAIN
 
+**[Play on your phone — no installation](https://amsoulness.github.io/aslns-ascii-art/?art=MONEY-RAIN)**
+
 Money Rain · ASCII Code Art by ASLNS, 2026
 
 ![MONEY RAIN](images/preview.gif)

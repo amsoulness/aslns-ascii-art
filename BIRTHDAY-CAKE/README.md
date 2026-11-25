@@ -1,5 +1,7 @@
 # HAPPY BIRTHDAY
 
+**[Play on your phone — no installation](https://amsoulness.github.io/aslns-ascii-art/?art=BIRTHDAY-CAKE)**
+
 Birthday Cake · ASCII Code Art by ASLNS, 2026
 
 ![HAPPY BIRTHDAY](images/preview.gif)

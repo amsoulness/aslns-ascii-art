@@ -1,5 +1,7 @@
 # WILL YOU
 
+**[Play on your phone — no installation](https://amsoulness.github.io/aslns-ascii-art/?art=DIAMOND-RING)**
+
 Diamond Ring · ASCII Code Art by ASLNS, 2026
 
 ![WILL YOU](images/preview.gif)

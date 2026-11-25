@@ -50,3 +50,20 @@ The existing copyright, personal-use permissions and restrictions are retained.
 License formatting and scope notes now identify documentation and generated previews.
 Source photos identified in Cat Knight and Skipped a Beat remain the property
 of their respective creators; their original photos are not included.
+
+## Mobile video exports
+
+After regenerating the GIF captures, run:
+
+```sh
+python -m pip install -r requirements-preview.txt
+python tools/export_mobile.py
+```
+
+This creates 16 MP4 videos (H.264 Baseline, YUV420p, fast-start metadata),
+small WebP posters, and the gallery manifest in docs/. Videos are derived from
+the captured GIFs; repeated frames at 10 fps preserve their 5 fps source motion.
+They contain no audio and are downloaded only when a visitor chooses to play.
+The responsive player provides native video controls, restart, fullscreen,
+search, and shareable artwork URLs. It pauses when its tab is hidden.
+This is playback of rendered output, not browser execution of Python.

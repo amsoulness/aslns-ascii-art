@@ -1,5 +1,7 @@
 # DON'T MELT
 
+**[Play on your phone — no installation](https://amsoulness.github.io/aslns-ascii-art/?art=SNOWMAN)**
+
 Snowman · ASCII Code Art · ASLNS, 2026
 
 ![DON'T MELT](images/preview.gif)

@@ -1,5 +1,7 @@
 # BUTTERFLY
 
+**[Play on your phone — no installation](https://amsoulness.github.io/aslns-ascii-art/?art=BUTTERFLY)**
+
 Butterfly · ASCII Code Art · ASLNS, 2026
 
 ![BUTTERFLY](images/preview.gif)

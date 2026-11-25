@@ -1,5 +1,7 @@
 # CAT KNIGHT
 
+**[Play on your phone — no installation](https://amsoulness.github.io/aslns-ascii-art/?art=CAT-KNIGHT)**
+
 Cat Knight · ASCII Code Art by ASLNS, 2026
 
 ![CAT KNIGHT](images/preview.gif)

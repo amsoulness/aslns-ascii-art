@@ -1,2 +1,4 @@
 # All runtime dependencies plus the GIF/screenshot export library.
 -r requirements.txt
+# Bundled FFmpeg for phone-compatible MP4 export.
+imageio-ffmpeg>=0.6

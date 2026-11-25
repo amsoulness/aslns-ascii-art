@@ -1,5 +1,7 @@
 # SKIPPED A BEAT
 
+**[Play on your phone — no installation](https://amsoulness.github.io/aslns-ascii-art/?art=SKIPPED-A-BEAT)**
+
 Startled Heart · ASCII Code Art by ASLNS, 2026
 
 ![SKIPPED A BEAT](images/preview.gif)

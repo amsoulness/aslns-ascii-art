@@ -75,3 +75,7 @@ Keep the complete artwork folder together when moving it.
 Three full-canvas screenshots and a looping 432 x 384, 5 fps GIF were generated
 with the artwork's window renderer. See README.md and ../PREVIEWS.md for details.
 License terms are in LICENSE.txt; attribution and existing restrictions remain in effect.
+
+WATCH ON MOBILE
+https://amsoulness.github.io/aslns-ascii-art/?art=MONEY-RAIN
+Tap Play animation. No Python installation needed; plays rendered output.

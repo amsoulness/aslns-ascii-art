@@ -1,5 +1,7 @@
 # IN BLOOM
 
+**[Play on your phone — no installation](https://amsoulness.github.io/aslns-ascii-art/?art=ROSE)**
+
 Rose · ASCII Code Art by ASLNS, 2026
 
 ![IN BLOOM](images/preview.gif)

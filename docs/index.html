@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#080b0d">
+  <meta name="description" content="Watch all 16 ASLNS ASCII artworks on your phone. Tap to play, pause, restart, or watch fullscreen. No installation needed.">
+  <title>ASLNS — Art in motion</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#player">Skip to player</a>
+  <header class="topbar"><a class="brand" href="./" aria-label="ASLNS gallery home">ASLNS<span>ASCII CODE ART</span></a><a class="repo" href="https://github.com/amsoulness/aslns-ascii-art">Source on GitHub</a></header>
+  <main>
+    <section class="intro"><p class="eyebrow">LETTERS. NUMBERS. A LITTLE MAGIC.</p><h1>Art in motion<span>.</span></h1><p>Sixteen artworks, made of characters.<br>Pick one. Press play. Stay a little.</p><div class="intro-meta"><span>16 animations</span><span>No installation</span><span>Made by @ft.aslns</span></div></section>
+    <section class="player-section" id="player" aria-labelledby="art-title">
+      <div class="stage"><video id="video" controls playsinline loop preload="none" aria-label="Selected artwork animation"></video><button class="stage-play" id="stage-play" aria-label="Play selected animation"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 4.8v14.4L19 12Z"/></svg><span>Play animation</span></button></div>
+      <div class="art-details"><div><p class="eyebrow" id="art-meta">ASCII IN MOTION</p><h2 id="art-title">Choose an artwork</h2><p id="art-description">The full collection is below.</p></div><div class="player-actions"><button class="primary" id="play" disabled>Play animation</button><button id="restart" disabled>Restart</button><button id="fullscreen" disabled>Fullscreen</button></div><p class="status" id="status" role="status" aria-live="polite">Loading collection…</p><div class="details-links"><a id="source" href="https://github.com/amsoulness/aslns-ascii-art">Python source</a><a id="gif" href="https://github.com/amsoulness/aslns-ascii-art">Open GIF</a><button class="link-button" id="share" disabled>Share artwork</button></div><p class="playback-note">Playback of the rendered Python artwork.<br>Soundless, looping, and ready for your phone.</p></div>
+    </section>
+    <section class="collection" aria-labelledby="collection-title"><div class="collection-heading"><div><p class="eyebrow">THE COLLECTION</p><h2 id="collection-title">Find your moment.</h2></div><label class="search-label" for="search">Find an artwork<input id="search" type="search" placeholder="Search the collection" autocomplete="off"></label></div><p id="result-count" class="result-count" aria-live="polite">16 artworks</p><div id="gallery" class="gallery"></div><p id="empty" hidden>No artworks match. Try another name.</p></section>
+    <noscript><p>This player needs JavaScript. You can still view every animated GIF in the <a href="https://github.com/amsoulness/aslns-ascii-art#works">GitHub collection</a>.</p></noscript>
+    <section class="about"><h2>Every shape is a character.</h2><p>These animations begin in Python and become letters, numbers, and symbols. This gallery brings their rendered output to your browser. To explore the code or run the interactive originals, visit the repository.</p><a href="https://github.com/amsoulness/aslns-ascii-art">Explore the source</a></section>
+  </main>
+  <footer><p>ASLNS · <a href="https://instagram.com/ft.aslns">@ft.aslns</a> · 2026</p><p>All rights reserved. <a href="https://github.com/amsoulness/aslns-ascii-art/blob/main/LICENSE.txt">License</a></p></footer>
+</body>
+</html>

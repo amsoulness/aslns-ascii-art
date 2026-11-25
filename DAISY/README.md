@@ -1,5 +1,7 @@
 # DAISY
 
+**[Play on your phone — no installation](https://amsoulness.github.io/aslns-ascii-art/?art=DAISY)**
+
 Daisy · ASCII Code Art · ASLNS, 2026
 
 ![DAISY](images/preview.gif)

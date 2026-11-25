@@ -1,5 +1,7 @@
 # GOLDFISH
 
+**[Play on your phone — no installation](https://amsoulness.github.io/aslns-ascii-art/?art=GOLDFISH)**
+
 Goldfish · ASCII Code Art · ASLNS, 2026
 
 ![GOLDFISH](images/preview.gif)

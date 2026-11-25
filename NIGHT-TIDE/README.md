@@ -1,5 +1,7 @@
 # NIGHT TIDE
 
+**[Play on your phone — no installation](https://amsoulness.github.io/aslns-ascii-art/?art=NIGHT-TIDE)**
+
 The sea at night · ASCII Code Art · ASLNS, 2026
 
 ![NIGHT TIDE](images/preview.gif)
