@@ -39,3 +39,11 @@ Things you can try (for yourself)
    CW, CH, FONT_PX   letter size
    TRAIL             how long the last frame stays behind
    COLORS            change the colours of the whole piece
+
+REPRODUCIBLE PREVIEWS
+The repository's tools/capture_previews.py runs this artwork's main window loop
+using an offscreen SDL display and fixed animation timestamps. It saves three
+full-canvas screenshots and a complete looping GIF. Only in-memory timing is
+adapted for capture; this artwork's source code is unchanged. See ../PREVIEWS.md.
+
+This release ships a playback script and precomputed ASCII frames; the original photo-to-ASCII generation pipeline is not included.

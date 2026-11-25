@@ -11,3 +11,9 @@ ASLNS · @ft.aslns
 Run daisy.py after installing requirements.txt.
 Space pause, R restart, S screenshot, Esc quit.
 Adjust DAISY_PETALS, bloom(), DRAW or COLORS to customize the flower.
+
+REPRODUCIBLE PREVIEWS
+The repository's tools/capture_previews.py runs this artwork's main window loop
+using an offscreen SDL display and fixed animation timestamps. It saves three
+full-canvas screenshots and a complete looping GIF. Only in-memory timing is
+adapted for capture; this artwork's source code is unchanged. See ../PREVIEWS.md.

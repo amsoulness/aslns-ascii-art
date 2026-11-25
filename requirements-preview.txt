@@ -1,0 +1,2 @@
+# All runtime dependencies plus the GIF/screenshot export library.
+-r requirements.txt

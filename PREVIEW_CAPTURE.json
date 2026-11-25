@@ -1,0 +1,258 @@
+[
+  {
+    "work": "BIRTHDAY-CAKE",
+    "loop_seconds": 18.0,
+    "screenshots": {
+      "01_building.png": 2.0,
+      "02_candle.png": 6.0,
+      "03_happy_birthday.png": 12.0
+    },
+    "gif_frames": 89,
+    "gif_size": [
+      432,
+      384
+    ],
+    "gif_fps": 5,
+    "render_samples": 179
+  },
+  {
+    "work": "BLACK-HOLE",
+    "loop_seconds": 20.0,
+    "screenshots": {
+      "01_circle.png": 1.5,
+      "02_disk.png": 5.0,
+      "03_flow.png": 14.0
+    },
+    "gif_frames": 100,
+    "gif_size": [
+      432,
+      384
+    ],
+    "gif_fps": 5,
+    "render_samples": 200
+  },
+  {
+    "work": "BUTTERFLY",
+    "loop_seconds": 20.0,
+    "screenshots": {
+      "01_crack.png": 1.4,
+      "02_break.png": 3.0,
+      "03_flight.png": 12.0
+    },
+    "gif_frames": 100,
+    "gif_size": [
+      432,
+      384
+    ],
+    "gif_fps": 5,
+    "render_samples": 200
+  },
+  {
+    "work": "CAT-KNIGHT",
+    "loop_seconds": 20.0,
+    "screenshots": {
+      "01_face.png": 1.0,
+      "02_pulling_back.png": 8.0,
+      "03_knight.png": 16.0
+    },
+    "gif_frames": 100,
+    "gif_size": [
+      432,
+      384
+    ],
+    "gif_fps": 5,
+    "render_samples": 200
+  },
+  {
+    "work": "DAISY",
+    "loop_seconds": 20.0,
+    "screenshots": {
+      "01_growing.png": 3.0,
+      "02_opening.png": 10.0,
+      "03_bloom.png": 16.0
+    },
+    "gif_frames": 100,
+    "gif_size": [
+      432,
+      384
+    ],
+    "gif_fps": 5,
+    "render_samples": 200
+  },
+  {
+    "work": "DIAMOND-RING",
+    "loop_seconds": 20.0,
+    "screenshots": {
+      "01_forming.png": 1.5,
+      "02_finished.png": 6.0,
+      "03_turning.png": 13.0
+    },
+    "gif_frames": 100,
+    "gif_size": [
+      432,
+      384
+    ],
+    "gif_fps": 5,
+    "render_samples": 200
+  },
+  {
+    "work": "FLIP-PHONE",
+    "loop_seconds": 16.0,
+    "screenshots": {
+      "01_shut.png": 4.0,
+      "02_opening.png": 5.6,
+      "03_calling.png": 12.0
+    },
+    "gif_frames": 79,
+    "gif_size": [
+      432,
+      384
+    ],
+    "gif_fps": 5,
+    "render_samples": 159
+  },
+  {
+    "work": "GNOME",
+    "loop_seconds": 18.0,
+    "screenshots": {
+      "01_peek.png": 3.0,
+      "02_hello.png": 8.0,
+      "03_walk.png": 13.0
+    },
+    "gif_frames": 89,
+    "gif_size": [
+      432,
+      384
+    ],
+    "gif_fps": 5,
+    "render_samples": 179
+  },
+  {
+    "work": "GOLDFISH",
+    "loop_seconds": 18.0,
+    "screenshots": {
+      "01_swim.png": 3.0,
+      "02_hello.png": 8.0,
+      "03_school.png": 13.0
+    },
+    "gif_frames": 90,
+    "gif_size": [
+      432,
+      384
+    ],
+    "gif_fps": 5,
+    "render_samples": 180
+  },
+  {
+    "work": "GOOD-LUCK",
+    "loop_seconds": 20.0,
+    "screenshots": {
+      "01_typing.png": 1.5,
+      "02_turning.png": 5.0,
+      "03_front.png": 10.0
+    },
+    "gif_frames": 100,
+    "gif_size": [
+      432,
+      384
+    ],
+    "gif_fps": 5,
+    "render_samples": 200
+  },
+  {
+    "work": "I-LOVE-YOU",
+    "loop_seconds": 20.0,
+    "screenshots": {
+      "01_typing.png": 1.5,
+      "02_turning.png": 6.0,
+      "03_front.png": 10.0
+    },
+    "gif_frames": 100,
+    "gif_size": [
+      432,
+      384
+    ],
+    "gif_fps": 5,
+    "render_samples": 200
+  },
+  {
+    "work": "MONEY-RAIN",
+    "loop_seconds": 20.0,
+    "screenshots": {
+      "01_first_notes.png": 3.5,
+      "02_rain.png": 7.0,
+      "03_full_rain.png": 15.0
+    },
+    "gif_frames": 100,
+    "gif_size": [
+      432,
+      384
+    ],
+    "gif_fps": 5,
+    "render_samples": 200
+  },
+  {
+    "work": "NIGHT-TIDE",
+    "loop_seconds": 20.0,
+    "screenshots": {
+      "01_rolling_in.png": 2.0,
+      "02_breaking.png": 8.0,
+      "03_glitter.png": 14.0
+    },
+    "gif_frames": 100,
+    "gif_size": [
+      432,
+      384
+    ],
+    "gif_fps": 5,
+    "render_samples": 200
+  },
+  {
+    "work": "ROSE",
+    "loop_seconds": 20.0,
+    "screenshots": {
+      "01_growing.png": 3.0,
+      "02_bud.png": 6.0,
+      "03_bloom.png": 16.0
+    },
+    "gif_frames": 100,
+    "gif_size": [
+      432,
+      384
+    ],
+    "gif_fps": 5,
+    "render_samples": 200
+  },
+  {
+    "work": "SKIPPED-A-BEAT",
+    "loop_seconds": 16.0,
+    "screenshots": {
+      "01_arriving.png": 2.0,
+      "02_flinch.png": 6.0,
+      "03_heart.png": 12.0
+    },
+    "gif_frames": 79,
+    "gif_size": [
+      432,
+      384
+    ],
+    "gif_fps": 5,
+    "render_samples": 159
+  },
+  {
+    "work": "SNOWMAN",
+    "loop_seconds": 22.0,
+    "screenshots": {
+      "01_gathering.png": 0.9,
+      "02_standing.png": 7.0,
+      "03_melting.png": 20.9
+    },
+    "gif_frames": 110,
+    "gif_size": [
+      432,
+      384
+    ],
+    "gif_fps": 5,
+    "render_samples": 220
+  }
+]

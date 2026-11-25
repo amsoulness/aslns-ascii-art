@@ -16,3 +16,5 @@ You may not:
 Credit to @ft.aslns is appreciated when you share what you make.
 
 This software is provided "as is", without warranty of any kind.
+
+Scope: these terms cover the code, documentation, and generated previews in this artwork folder. Third-party source material, where identified in the README, remains the property of its creator.

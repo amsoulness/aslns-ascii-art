@@ -44,3 +44,9 @@ Things you can try (for yourself)
    DRAW      when the plant starts and finishes appearing
    COLORS    the colour of each kind of point
    W, H      window size
+
+REPRODUCIBLE PREVIEWS
+The repository's tools/capture_previews.py runs this artwork's main window loop
+using an offscreen SDL display and fixed animation timestamps. It saves three
+full-canvas screenshots and a complete looping GIF. Only in-memory timing is
+adapted for capture; this artwork's source code is unchanged. See ../PREVIEWS.md.

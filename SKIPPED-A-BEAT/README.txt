@@ -68,3 +68,13 @@ else's, please report it and let me know.
 Full terms: LICENSE.txt
 
 Questions: Instagram @ft.aslns
+
+VERIFIED SETUP AND PREVIEWS - 26 November 2026
+Python 3.12 on Windows.
+Install: python -m pip install -r requirements.txt
+Run: python skipped_a_beat.py
+Space pause/resume; R restart; S screenshot; Esc close.
+Keep the complete artwork folder together when moving it. The bundled *_frames.npz file contains precomputed character animation; the supplied script plays it. The original source photo is not included and belongs to its creator.
+Three full-canvas screenshots and a looping 432 x 384, 5 fps GIF were generated
+with the artwork's window renderer. See README.md and ../PREVIEWS.md for details.
+License terms are in LICENSE.txt; attribution and existing restrictions remain in effect.

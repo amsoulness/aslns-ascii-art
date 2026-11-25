@@ -69,3 +69,13 @@ else's, please report it and let me know.
 Full terms: LICENSE.txt
 
 Questions: Instagram @ft.aslns
+
+VERIFIED SETUP AND PREVIEWS - 26 November 2026
+Python 3.12 on Windows.
+Install: python -m pip install -r requirements.txt
+Run: python good_luck.py
+Space pause/resume; R restart; S screenshot; Esc close.
+Keep the complete artwork folder together when moving it. The bundled sprites/ directory is required. Playwright and Chromium are only needed for the optional tools/make_phrases.py sprite generator, not for running the artwork.
+Three full-canvas screenshots and a looping 432 x 384, 5 fps GIF were generated
+with the artwork's window renderer. See README.md and ../PREVIEWS.md for details.
+License terms are in LICENSE.txt; attribution and existing restrictions remain in effect.

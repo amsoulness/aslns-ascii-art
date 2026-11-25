@@ -21,3 +21,5 @@ If you see my code or artwork posted as someone else's, please report it
 and let me know on Instagram @ft.aslns.
 
 This software is provided "as is", without warranty of any kind.
+
+Scope: these terms cover the code, documentation, and generated previews in this repository. Third-party source material, where identified in the README, remains the property of its creator.

@@ -1,2 +1,3 @@
+# Runtime dependencies; tested with Python 3.12 on Windows.
 numpy>=1.24
 pygame-ce>=2.5

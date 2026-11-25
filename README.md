@@ -49,3 +49,20 @@ Full terms in [LICENSE.txt](LICENSE.txt).
 
 © 2026 ASLNS. All rights reserved.
 Images and videos in this repository may not be reused without permission.
+
+## Run the collection
+
+Tested on Windows with Python 3.12. Download or clone the entire repository so
+the bundled sprites and precomputed animation data stay beside their scripts.
+
+```sh
+python -m pip install -r requirements.txt
+python DAISY/daisy.py
+```
+
+Replace `DAISY/daisy.py` with the desired artwork's script. Each artwork also
+has its own minimal `requirements.txt`. Click its window, then use Space to
+pause/resume, R to restart, S to save a screenshot, or Esc to close.
+
+All 16 works have three freshly rendered full-canvas screenshots and a looping
+preview. See [preview generation and verification](PREVIEWS.md).

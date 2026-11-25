@@ -51,3 +51,9 @@ Things you can try (for yourself)
    LIGHT       where the light comes from
    TAG_COLOR   the colours
    CELL        letter size
+
+REPRODUCIBLE PREVIEWS
+The repository's tools/capture_previews.py runs this artwork's main window loop
+using an offscreen SDL display and fixed animation timestamps. It saves three
+full-canvas screenshots and a complete looping GIF. Only in-memory timing is
+adapted for capture; this artwork's source code is unchanged. See ../PREVIEWS.md.
