@@ -6,6 +6,14 @@ Every piece is drawn only with letters, numbers and symbols.
 This repository is an archive of the works and a technical portfolio:
 what each piece is, why it was made, and which techniques shaped it.
 
+## Three ways into the gallery
+
+**Watch** · [Open the preview gallery](PREVIEWS.md) to see the pieces before installing Python.
+
+**Run** · Try the [butterfly sketch](BUTTERFLY/butterfly.py). From the repository root, install its dependencies with `python -m pip install -r BUTTERFLY/requirements.txt`, then launch it with `python BUTTERFLY/butterfly.py`.
+
+**Look closer** · The [butterfly walkthrough](BUTTERFLY/HOW_IT_WORKS.txt) accompanies the source. Read it alongside the animation to follow how the scene is drawn.
+
 ## Watch on your phone
 
 **[Open the mobile gallery](https://amsoulness.github.io/aslns-ascii-art/)**
