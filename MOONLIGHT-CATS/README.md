@@ -43,3 +43,6 @@ See [PREVIEWS.md](../PREVIEWS.md) for regeneration commands.
 
 ASLNS · [@ft.aslns](https://instagram.com/ft.aslns) · 2026.
 See [LICENSE.txt](LICENSE.txt) for the personal-use permissions and restrictions.
+
+Glow: the same two additive bloom passes as Rose: a close halo at 0.75
+strength (radius 5) and a wide halo at 0.45 strength (radius 22).

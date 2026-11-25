@@ -3,6 +3,7 @@ Run from the repository root: python tools/export_mobile.py
 Requires requirements-preview.txt. No artwork code is changed.
 """
 import json
+import hashlib
 from pathlib import Path
 import subprocess
 import imageio_ffmpeg
@@ -48,8 +49,10 @@ if __name__ == '__main__':
         with Image.open(ROOT / key / 'images' / poster) as image:
             image.convert('RGB').resize((432, 384), Image.Resampling.LANCZOS).save(
                 media / (slug + '.webp'), quality=88)
+        video_version=hashlib.sha256(output.read_bytes()).hexdigest()[:10]
+        poster_version=hashlib.sha256((media/(slug+'.webp')).read_bytes()).hexdigest()[:10]
         entries.append({'id': key, 'title': title, 'description': description,
-                        'video': f'media/{slug}.mp4', 'poster': f'media/{slug}.webp',
+                        'video': f'media/{slug}.mp4?v={video_version}', 'poster': f'media/{slug}.webp?v={poster_version}',
                         'seconds': reports[key]['loop_seconds'], 'bytes': output.stat().st_size})
         print('Exported', key, output.stat().st_size, 'bytes', flush=True)
     (ROOT / 'docs/artworks.json').write_text(json.dumps(entries, indent=2) + '\n', encoding='utf-8')

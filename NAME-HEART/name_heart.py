@@ -187,6 +187,16 @@ class Canvas:
                 output.blit(glyph,((left+right-glyph.get_width())/2,y))
         return output
 
+def soft_glow(surf,k,radius,amount):
+    width,height=surf.get_size()
+    small=pygame.transform.smoothscale(surf,(width//k,height//k))
+    if hasattr(pygame.transform,'gaussian_blur'):
+        small=pygame.transform.gaussian_blur(small,max(1,radius//k))
+    layer=pygame.transform.smoothscale(small,(width,height))
+    layer.fill((int(255*amount),)*3,special_flags=pygame.BLEND_MULT)
+    return layer
+
+
 def main():
     global NAME
     pygame.init()
@@ -224,10 +234,9 @@ def main():
         dt=clock.tick(30)/1000
         if not paused: t+=min(dt,1/15); t%=LOOP; art=canvas.draw(t)
         screen.fill((0,0,0)); screen.blit(art,(0,35))
-        glow=pygame.transform.smoothscale(art,(135,100))
-        if hasattr(pygame.transform,'gaussian_blur'): glow=pygame.transform.gaussian_blur(glow,2)
-        glow=pygame.transform.smoothscale(glow,(W,800)); glow.fill((75,75,75),special_flags=pygame.BLEND_MULT)
-        screen.blit(glow,(0,35),special_flags=pygame.BLEND_ADD)
+        # Match Rose: a close halo plus a wider, softer bloom.
+        screen.blit(soft_glow(art,4,5,0.75),(0,35),special_flags=pygame.BLEND_ADD)
+        screen.blit(soft_glow(art,8,22,0.45),(0,35),special_flags=pygame.BLEND_ADD)
         if MODE=='NAME-HEART' and not CAPTURE:
             pygame.draw.rect(screen,(20,15,26),field,border_radius=10)
             pygame.draw.rect(screen,(255,134,183) if editing else (100,76,109),field,2,border_radius=10)

@@ -6,8 +6,16 @@ let chosenName = (new URL(location.href).searchParams.get('name') || '').slice(0
 let heartPlaying = false, heartTime = 0, previousFrame = 0;
 const nameCanvas = $('name-canvas');
 const nameContext = nameCanvas.getContext('2d');
+const nameLayer = document.createElement('canvas');
+nameLayer.width=1080; nameLayer.height=960;
+const nameLayerContext = nameLayer.getContext('2d');
+const nameHalos = [4,8].map(k => {
+  const canvas=document.createElement('canvas');
+  canvas.width=1080/k; canvas.height=960/k;
+  return {canvas,ctx:canvas.getContext('2d'),k};
+});
 function drawNameHeart() {
-  const ctx = nameContext;
+  const ctx = nameLayerContext;
   ctx.fillStyle = '#000'; ctx.fillRect(0, 0, 1080, 960);
   const name = chosenName.trim() || 'Your name';
   const size = Math.max(16, Math.min(24, 550 / [...name].length));
@@ -35,11 +43,25 @@ function drawNameHeart() {
       if (count < 1) continue;
       const text=Array(count).fill(name).join(' ');
       ctx.fillStyle=`hsl(${335 + 10*Math.sin(row*.15+heartTime)},90%,${72+8*Math.sin(row*.2+heartTime)**2}%)`;
-      ctx.shadowColor='#ff6cab'; ctx.shadowBlur=5;
+      ctx.shadowBlur=0;
       ctx.fillText(text,(left+right-ctx.measureText(text).width)/2,y);
     }
   }
   ctx.shadowBlur=0;
+  nameContext.globalCompositeOperation='source-over';
+  nameContext.globalAlpha=1;
+  nameContext.drawImage(nameLayer,0,0);
+  nameContext.globalCompositeOperation='lighter';
+  for (const {canvas,ctx:halo,k} of nameHalos) {
+    halo.clearRect(0,0,canvas.width,canvas.height);
+    halo.filter=`blur(${k===4 ? 1.25 : 2.75}px)`;
+    halo.drawImage(nameLayer,0,0,canvas.width,canvas.height);
+    halo.filter='none';
+    nameContext.globalAlpha=k===4 ? 0.75 : 0.45;
+    nameContext.drawImage(canvas,0,0,1080,960);
+  }
+  nameContext.globalAlpha=1;
+  nameContext.globalCompositeOperation='source-over';
   nameCanvas.setAttribute('aria-label', `Heart made from the name ${name}`);
 }
 function animateNameHeart(timestamp) {
@@ -179,7 +201,7 @@ $('search').addEventListener('input', () => {
 
 async function initialize() {
   try {
-    const response = await fetch('artworks.json?v=20261126-romantic-heart', { cache: 'no-store' });
+    const response = await fetch('artworks.json?v=20261126-rose-glow', { cache: 'no-store' });
     if (!response.ok) throw new Error('Collection unavailable');
     artworks = await response.json();
     const fragment = document.createDocumentFragment();

@@ -3,44 +3,44 @@
     "id": "BUTTERFLY-HEART",
     "title": "Butterfly heart",
     "description": "Two butterflies trace a sparkling heart together.",
-    "video": "media/butterfly-heart.mp4",
-    "poster": "media/butterfly-heart.webp",
+    "video": "media/butterfly-heart.mp4?v=9a90dd9f09",
+    "poster": "media/butterfly-heart.webp?v=a9f30371f5",
     "seconds": 18.0,
-    "bytes": 382439
+    "bytes": 387761
   },
   {
     "id": "BLOOMING-BOUQUET",
     "title": "Blooming bouquet",
     "description": "Five little flowers, tied with a pink ribbon.",
-    "video": "media/blooming-bouquet.mp4",
-    "poster": "media/blooming-bouquet.webp",
+    "video": "media/blooming-bouquet.mp4?v=f24ef27902",
+    "poster": "media/blooming-bouquet.webp?v=dd222cb9b1",
     "seconds": 18.0,
-    "bytes": 393511
+    "bytes": 407034
   },
   {
     "id": "MOONLIGHT-CATS",
     "title": "Moonlight cats",
     "description": "Two cats sit together under a heart-shaped moon.",
-    "video": "media/moonlight-cats.mp4",
-    "poster": "media/moonlight-cats.webp",
+    "video": "media/moonlight-cats.mp4?v=f22c7d2b88",
+    "poster": "media/moonlight-cats.webp?v=97283db64e",
     "seconds": 18.0,
-    "bytes": 101684
+    "bytes": 103692
   },
   {
     "id": "NAME-HEART",
     "title": "A heart for you",
     "description": "Your name becomes the letters of a beating heart.",
-    "video": "media/name-heart.mp4",
-    "poster": "media/name-heart.webp",
+    "video": "media/name-heart.mp4?v=f090a30f1b",
+    "poster": "media/name-heart.webp?v=eb88090558",
     "seconds": 18.0,
-    "bytes": 401001
+    "bytes": 431874
   },
   {
     "id": "DAISY",
     "title": "Daisy",
     "description": "White petals open around a golden heart.",
-    "video": "media/daisy.mp4",
-    "poster": "media/daisy.webp",
+    "video": "media/daisy.mp4?v=a6a21bcc9d",
+    "poster": "media/daisy.webp?v=70542c4a28",
     "seconds": 20.0,
     "bytes": 1544512
   },
@@ -48,8 +48,8 @@
     "id": "ROSE",
     "title": "In bloom",
     "description": "A spark grows into a rose, petal by petal.",
-    "video": "media/rose.mp4",
-    "poster": "media/rose.webp",
+    "video": "media/rose.mp4?v=58c0719553",
+    "poster": "media/rose.webp?v=d857595c0e",
     "seconds": 20.0,
     "bytes": 1282327
   },
@@ -57,8 +57,8 @@
     "id": "BUTTERFLY",
     "title": "Butterfly",
     "description": "A crack in the glass. A world of wings.",
-    "video": "media/butterfly.mp4",
-    "poster": "media/butterfly.webp",
+    "video": "media/butterfly.mp4?v=7ea9a175dd",
+    "poster": "media/butterfly.webp?v=cf6b8cabb9",
     "seconds": 20.0,
     "bytes": 750771
   },
@@ -66,8 +66,8 @@
     "id": "GOLDFISH",
     "title": "Goldfish",
     "description": "A shimmering school swims through the dark.",
-    "video": "media/goldfish.mp4",
-    "poster": "media/goldfish.webp",
+    "video": "media/goldfish.mp4?v=81cabfc157",
+    "poster": "media/goldfish.webp?v=f5ce2cb8d2",
     "seconds": 18.0,
     "bytes": 1153522
   },
@@ -75,8 +75,8 @@
     "id": "GNOME",
     "title": "Gnome",
     "description": "A tiny visitor with a lantern and a shy hello.",
-    "video": "media/gnome.mp4",
-    "poster": "media/gnome.webp",
+    "video": "media/gnome.mp4?v=5d0a662b21",
+    "poster": "media/gnome.webp?v=35240003fd",
     "seconds": 18.0,
     "bytes": 720941
   },
@@ -84,8 +84,8 @@
     "id": "FLIP-PHONE",
     "title": "Incoming call",
     "description": "A familiar flip phone lights up and opens.",
-    "video": "media/flip-phone.mp4",
-    "poster": "media/flip-phone.webp",
+    "video": "media/flip-phone.mp4?v=8cb7ecc59b",
+    "poster": "media/flip-phone.webp?v=a101ff5abf",
     "seconds": 16.0,
     "bytes": 664243
   },
@@ -93,8 +93,8 @@
     "id": "GOOD-LUCK",
     "title": "Good luck",
     "description": "A four-leaf clover written in many languages.",
-    "video": "media/good-luck.mp4",
-    "poster": "media/good-luck.webp",
+    "video": "media/good-luck.mp4?v=cc82243ef2",
+    "poster": "media/good-luck.webp?v=60ce4f5b28",
     "seconds": 20.0,
     "bytes": 1884854
   },
@@ -102,8 +102,8 @@
     "id": "SKIPPED-A-BEAT",
     "title": "Skipped a beat",
     "description": "A bright heart pulses through a field of letters.",
-    "video": "media/skipped-a-beat.mp4",
-    "poster": "media/skipped-a-beat.webp",
+    "video": "media/skipped-a-beat.mp4?v=4e04ee1034",
+    "poster": "media/skipped-a-beat.webp?v=12e3631d81",
     "seconds": 16.0,
     "bytes": 2592199
   },
@@ -111,8 +111,8 @@
     "id": "I-LOVE-YOU",
     "title": "I love you",
     "description": "A turning heart made of words in 114 languages.",
-    "video": "media/i-love-you.mp4",
-    "poster": "media/i-love-you.webp",
+    "video": "media/i-love-you.mp4?v=9a94199457",
+    "poster": "media/i-love-you.webp?v=97bfdd5201",
     "seconds": 20.0,
     "bytes": 1566837
   },
@@ -120,8 +120,8 @@
     "id": "SNOWMAN",
     "title": "Don't melt",
     "description": "A little snowman gathers, stands, and begins to melt.",
-    "video": "media/snowman.mp4",
-    "poster": "media/snowman.webp",
+    "video": "media/snowman.mp4?v=e8a50ca54d",
+    "poster": "media/snowman.webp?v=2c01220329",
     "seconds": 22.0,
     "bytes": 1948780
   },
@@ -129,8 +129,8 @@
     "id": "NIGHT-TIDE",
     "title": "Night tide",
     "description": "Waves break into a glittering sea of characters.",
-    "video": "media/night-tide.mp4",
-    "poster": "media/night-tide.webp",
+    "video": "media/night-tide.mp4?v=8a28f6943a",
+    "poster": "media/night-tide.webp?v=484a91af0e",
     "seconds": 20.0,
     "bytes": 3207365
   },
@@ -138,8 +138,8 @@
     "id": "BLACK-HOLE",
     "title": "Black hole",
     "description": "A glowing disk curves around a dark center.",
-    "video": "media/black-hole.mp4",
-    "poster": "media/black-hole.webp",
+    "video": "media/black-hole.mp4?v=d4593acfd5",
+    "poster": "media/black-hole.webp?v=921aefd11a",
     "seconds": 20.0,
     "bytes": 696297
   },
@@ -147,8 +147,8 @@
     "id": "CAT-KNIGHT",
     "title": "Cat knight",
     "description": "A tiny knight, a flowing cape, and a very big sword.",
-    "video": "media/cat-knight.mp4",
-    "poster": "media/cat-knight.webp",
+    "video": "media/cat-knight.mp4?v=09f9c1cfbc",
+    "poster": "media/cat-knight.webp?v=8ebf63376f",
     "seconds": 20.0,
     "bytes": 1151173
   },
@@ -156,8 +156,8 @@
     "id": "MONEY-RAIN",
     "title": "Money rain",
     "description": "Letter-drawn notes tumble through the air.",
-    "video": "media/money-rain.mp4",
-    "poster": "media/money-rain.webp",
+    "video": "media/money-rain.mp4?v=aea381ac93",
+    "poster": "media/money-rain.webp?v=ee1bf1dc04",
     "seconds": 20.0,
     "bytes": 1644939
   },
@@ -165,8 +165,8 @@
     "id": "BIRTHDAY-CAKE",
     "title": "Happy birthday",
     "description": "A cake takes shape and a candle comes to life.",
-    "video": "media/birthday-cake.mp4",
-    "poster": "media/birthday-cake.webp",
+    "video": "media/birthday-cake.mp4?v=30133a1c6c",
+    "poster": "media/birthday-cake.webp?v=7adcf2370a",
     "seconds": 18.0,
     "bytes": 832480
   },
@@ -174,8 +174,8 @@
     "id": "DIAMOND-RING",
     "title": "Will you",
     "description": "A diamond ring forms from dust and catches the light.",
-    "video": "media/diamond-ring.mp4",
-    "poster": "media/diamond-ring.webp",
+    "video": "media/diamond-ring.mp4?v=8f1987b73e",
+    "poster": "media/diamond-ring.webp?v=ccdc8c7572",
     "seconds": 20.0,
     "bytes": 1325990
   }

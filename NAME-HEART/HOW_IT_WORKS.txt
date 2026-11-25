@@ -13,3 +13,6 @@ Share artwork preserves the name in the link. No names are stored in the reposit
 
 Space pause; R restart; S screenshot; Esc quit (outside the desktop input field).
 The browser provides play/pause, restart and fullscreen controls.
+
+Glow: the same two additive bloom passes as Rose: a close halo at 0.75
+strength (radius 5) and a wide halo at 0.45 strength (radius 22).

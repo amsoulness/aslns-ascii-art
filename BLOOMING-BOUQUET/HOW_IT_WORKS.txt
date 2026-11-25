@@ -10,3 +10,6 @@ main() displays the artwork, handles controls and loops every 18 seconds.
 
 Regenerate captures with tools/capture_previews.py BLOOMING-BOUQUET.
 Export phone-compatible video with tools/export_mobile.py.
+
+Glow: the same two additive bloom passes as Rose: a close halo at 0.75
+strength (radius 5) and a wide halo at 0.45 strength (radius 22).

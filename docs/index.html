@@ -6,15 +6,15 @@
   <meta name="theme-color" content="#080b0d">
   <meta name="description" content="Watch all 20 ASLNS ASCII artworks on your phone. Tap to play, pause, restart, or watch fullscreen. No installation needed.">
   <title>ASLNS â€” Art in motion</title>
-  <link rel="stylesheet" href="style.css?v=20261126-romantic-heart">
-  <script src="app.js?v=20261126-romantic-heart" defer></script>
+  <link rel="stylesheet" href="style.css?v=20261126-rose-glow">
+  <script src="app.js?v=20261126-rose-glow" defer></script>
 </head>
 <body>
   <a class="skip" href="#player">Skip to player</a>
   <header class="topbar"><a class="brand" href="./" aria-label="ASLNS gallery home">ASLNS<span>ASCII CODE ART</span></a><a class="repo" href="https://github.com/amsoulness/aslns-ascii-art">Source on GitHub</a></header>
   <main>
     <section class="intro"><p class="eyebrow">LETTERS. NUMBERS. A LITTLE MAGIC.</p><h1>Art in motion<span>.</span></h1><p>Twenty artworks, made of characters.<br>Pick one. Press play. Stay a little.</p><div class="intro-meta"><span>20 animations</span><span>No installation</span><span>Made by @ft.aslns</span></div></section>
-    <nav class="new-works" aria-label="New romantic artworks"><strong>NEW · ROMANTIC COLLECTION</strong><a href="?art=NAME-HEART&amp;v=20261126-romantic-heart">Heart made from your name</a><a href="?art=BUTTERFLY-HEART&amp;v=20261126-romantic-heart">Butterfly heart</a><a href="?art=BLOOMING-BOUQUET&amp;v=20261126-romantic-heart">Blooming bouquet</a><a href="?art=MOONLIGHT-CATS&amp;v=20261126-romantic-heart">Moonlight cats</a></nav>
+    <nav class="new-works" aria-label="New romantic artworks"><strong>NEW · ROMANTIC COLLECTION</strong><a href="?art=NAME-HEART&amp;v=20261126-rose-glow">Heart made from your name</a><a href="?art=BUTTERFLY-HEART&amp;v=20261126-rose-glow">Butterfly heart</a><a href="?art=BLOOMING-BOUQUET&amp;v=20261126-rose-glow">Blooming bouquet</a><a href="?art=MOONLIGHT-CATS&amp;v=20261126-rose-glow">Moonlight cats</a></nav>
     <section class="player-section" id="player" aria-labelledby="art-title">
       <div class="stage"><video id="video" controls playsinline loop preload="none" aria-label="Selected artwork animation"></video><canvas id="name-canvas" width="1080" height="960" aria-label="Heart made from your name" hidden></canvas><span id="personal-name" class="personal-name" hidden>Your name</span><button class="stage-play" id="stage-play" aria-label="Play selected animation"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 4.8v14.4L19 12Z"/></svg><span>Play animation</span></button></div>
       <div class="art-details"><div><p class="eyebrow" id="art-meta">ASCII IN MOTION</p><h2 id="art-title">Choose an artwork</h2><p id="art-description">The full collection is below.</p></div><div id="name-editor" class="name-editor" hidden><label for="name-input">Make this heart yours</label><input id="name-input" type="text" maxlength="24" placeholder="Type a name" autocomplete="off"><p>Anyone can change the name. Share artwork keeps your choice in its link.</p></div><div class="player-actions"><button class="primary" id="play" disabled>Play animation</button><button id="restart" disabled>Restart</button><button id="fullscreen" disabled>Fullscreen</button></div><p class="status" id="status" role="status" aria-live="polite">Loading collectionâ€¦</p><div class="details-links"><a id="source" href="https://github.com/amsoulness/aslns-ascii-art">Python source</a><a id="gif" href="https://github.com/amsoulness/aslns-ascii-art">Open GIF</a><button class="link-button" id="share" disabled>Share artwork</button></div><p class="playback-note">Playback of the rendered Python artwork.<br>Soundless, looping, and ready for your phone.</p></div>
