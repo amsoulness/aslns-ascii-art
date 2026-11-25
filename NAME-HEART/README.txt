@@ -1,7 +1,7 @@
 A Heart for You
 ASLNS / @ft.aslns / 2026
 
-A glowing heart beats around a name you can change yourself.
+The typed name is repeated to form the whole heart.
 
 Run: python name_heart.py
 Install: python -m pip install -r requirements.txt

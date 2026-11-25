@@ -1,14 +1,15 @@
 HOW IT WORKS - A Heart for You
-ASLNS / @ft.aslns
+ASLNS / @ft.aslns / 2026
 
-A glowing heart beats around a name you can change yourself.
-scene(t) builds a small colored raster from parametric geometry.
-Canvas.draw(t) samples the scene into a grid of 135 columns and 80 rows.
-The brightest color channel picks a glyph from a brightness ramp.
-Each glyph is tinted with the scene color; a blurred glow is added.
-main() displays the artwork, handles controls and loops every 18 seconds.
+The repeated name itself forms the heart; there is no separate central label.
+A parametric heart curve is sampled into points. Each horizontal row intersects
+that curve to find its left and right edges, including the two top lobes.
+Whole copies of the typed name fill each row. A subtle pulse changes the curve,
+and pink highlights travel through the rows.
 
-Click the name box, type up to 24 characters, then press Enter. While editing, R, S, and Space type normally; Esc leaves the field. On mobile, type a name below the player. Share artwork preserves it in the link. Names are not saved into the repository.
+Desktop: click the name field, type up to 24 characters, then press Enter.
+Mobile: a live browser canvas rebuilds the heart whenever the name input changes.
+Share artwork preserves the name in the link. No names are stored in the repository.
 
-Regenerate captures with tools/capture_previews.py NAME-HEART.
-Export phone-compatible video with tools/export_mobile.py.
+Space pause; R restart; S screenshot; Esc quit (outside the desktop input field).
+The browser provides play/pause, restart and fullscreen controls.

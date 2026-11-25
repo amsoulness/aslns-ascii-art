@@ -67,3 +67,8 @@ They contain no audio and are downloaded only when a visitor chooses to play.
 The responsive player provides native video controls, restart, fullscreen,
 search, and shareable artwork URLs. It pauses when its tab is hidden.
 This is playback of rendered output, not browser execution of Python.
+
+Name Heart is an exception to video playback: its mobile player renders a live
+canvas heart made from the typed name. The generic MP4/GIF remains an archived
+preview; the interactive desktop application and browser canvas use the same
+scanline layout approach to repeat whole names across the heart.

@@ -29,11 +29,11 @@
   {
     "id": "NAME-HEART",
     "title": "A heart for you",
-    "description": "Type any name into a glowing, beating heart.",
+    "description": "Your name becomes the letters of a beating heart.",
     "video": "media/name-heart.mp4",
     "poster": "media/name-heart.webp",
     "seconds": 18.0,
-    "bytes": 519593
+    "bytes": 401001
   },
   {
     "id": "DAISY",

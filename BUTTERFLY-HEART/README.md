@@ -35,8 +35,8 @@ Python · NumPy · pygame-ce. No external image assets are required.
 
 Three full-canvas screenshots and a looping GIF were captured from the actual
 Python window renderer on 26 November 2026. The mobile gallery plays an H.264
-export of this render. Name Heart adds an editable browser text layer so each
-visitor can use a different name; its generic capture leaves the center empty.
+export of this render. Name Heart runs live in a browser canvas: each visitor can type a name, and
+the repeated name itself forms the heart. Its archived preview uses "Your name".
 See [PREVIEWS.md](../PREVIEWS.md) for regeneration commands.
 
 ## License

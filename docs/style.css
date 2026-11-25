@@ -2,3 +2,4 @@
 
 .name-editor[hidden],.personal-name[hidden]{display:none}.name-editor{margin:12px 0}.name-editor label{color:var(--mint);font-size:.9rem}.name-editor input{width:100%}.name-editor p{font-size:.8rem;margin:10px 0}.personal-name{position:absolute;top:43%;left:50%;transform:translate(-50%,-50%);max-width:65%;width:65%;text-align:center;color:#ffd3e9;text-shadow:0 0 15px #ff5ea8;font-family:Consolas,monospace;font-size:clamp(.9rem,3vw,2rem);overflow-wrap:anywhere;pointer-events:none;line-height:1.3}.stage.has-name .stage-play{top:72%}
 .stage:fullscreen{width:100vw;height:100vh;aspect-ratio:auto}.stage:fullscreen video{max-height:100vh}.stage:fullscreen .personal-name{font-size:clamp(1rem,4vw,3rem)}
+#name-canvas{display:block;width:100%;height:100%;object-fit:contain;max-height:76vh}#name-canvas[hidden],video[hidden]{display:none}.stage:fullscreen #name-canvas{max-height:100vh;object-fit:contain}

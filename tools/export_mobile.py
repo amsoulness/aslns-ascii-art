@@ -13,7 +13,7 @@ WORKS = [
     ('BUTTERFLY-HEART', 'Butterfly heart', 'Two butterflies trace a sparkling heart together.', '03_finished.png'),
     ('BLOOMING-BOUQUET', 'Blooming bouquet', 'Five little flowers, tied with a pink ribbon.', '03_finished.png'),
     ('MOONLIGHT-CATS', 'Moonlight cats', 'Two cats sit together under a heart-shaped moon.', '03_finished.png'),
-    ('NAME-HEART', 'A heart for you', 'Type any name into a glowing, beating heart.', '03_finished.png'),
+    ('NAME-HEART', 'A heart for you', 'Your name becomes the letters of a beating heart.', '03_finished.png'),
     ('DAISY', 'Daisy', 'White petals open around a golden heart.', '03_bloom.png'),
     ('ROSE', 'In bloom', 'A spark grows into a rose, petal by petal.', '03_bloom.png'),
     ('BUTTERFLY', 'Butterfly', 'A crack in the glass. A world of wings.', '03_flight.png'),

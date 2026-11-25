@@ -142,6 +142,7 @@ def scene(t):
 
 class Canvas:
     def __init__(self):
+        self.namefont = pygame.font.SysFont(MONO, 20)
         font=pygame.font.SysFont(MONO,11)
         atlas=[]
         for char in RAMP:
@@ -151,6 +152,8 @@ class Canvas:
         self.atlas=np.stack(atlas)
 
     def draw(self,t):
+        if MODE == 'NAME-HEART':
+            return self.draw_name_heart(t)
         source=pygame.transform.smoothscale(scene(t),(COLS,ROWS))
         color=pygame.surfarray.array3d(source).transpose(1,0,2).astype(np.float32)
         value=color.max(axis=2)
@@ -159,6 +162,30 @@ class Canvas:
         tint=np.repeat(np.repeat(np.clip(color*1.7,0,255),CH,axis=0),CW,axis=1)
         pixels=(tint*mask[:,:,None]).astype(np.uint8)
         return pygame.surfarray.make_surface(pixels.transpose(1,0,2))
+
+    def draw_name_heart(self,t):
+        output=pygame.Surface((W,800))
+        name=NAME.strip() or 'Your name'
+        phrase=name+' '
+        phrase_width=self.namefont.size(phrase)[0]
+        pulse=1+.035*math.sin(t*3.6)
+        points=[heart(a,22*pulse,(540,365)) for a in np.linspace(0,math.tau,360)]
+        for row,y in enumerate(range(20,790,25)):
+            intersections=[]
+            for i,(x0,y0) in enumerate(points):
+                x1,y1=points[(i+1)%len(points)]
+                if (y0>y+10)!=(y1>y+10):
+                    intersections.append(x0+(y+10-y0)*(x1-x0)/(y1-y0))
+            intersections.sort()
+            for left,right in zip(intersections[::2],intersections[1::2]):
+                count=int((right-left-10)/phrase_width)
+                if count<1: continue
+                line=(' '.join([name]*count))
+                shade=.72+.28*math.sin(row*.22+t)**2
+                color=(int(255*shade),int(143*shade),int(195*shade))
+                glyph=self.namefont.render(line,True,color)
+                output.blit(glyph,((left+right-glyph.get_width())/2,y))
+        return output
 
 def main():
     global NAME
@@ -202,10 +229,6 @@ def main():
         glow=pygame.transform.smoothscale(glow,(W,800)); glow.fill((75,75,75),special_flags=pygame.BLEND_MULT)
         screen.blit(glow,(0,35),special_flags=pygame.BLEND_ADD)
         if MODE=='NAME-HEART' and not CAPTURE:
-            label=namefont.render(NAME or 'Your name',True,(255,211,233))
-            if label.get_width()>590:
-                label=pygame.transform.smoothscale(label,(590,int(label.get_height()*590/label.get_width())))
-            screen.blit(label,(W//2-label.get_width()//2,385))
             pygame.draw.rect(screen,(20,15,26),field,border_radius=10)
             pygame.draw.rect(screen,(255,134,183) if editing else (100,76,109),field,2,border_radius=10)
             value=font.render((NAME or 'Click here and type a name')+('|' if editing and int(t*2)%2 else ''),True,(245,215,235))
